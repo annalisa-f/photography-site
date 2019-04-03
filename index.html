@@ -1,53 +1,62 @@
-<html>
+<!DOCTYPE html>
+
+<html lang="en">
+
     <head>
+        <meta charset="utf-8">
+        <title>Annalisa Travel</title>
+        <meta name="description" content="Galleries of Annalisa Fleming's travel photographs">
+        <link rel="stylesheet" href="styles.css" />
+        
         <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
         <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
     </head>
     
-    <style>
-        html {
-            scroll-behavior: smooth;
-        }
-        
-        #nav {
-            position: fixed;
-            background-color: hotpink;
-            width: 100%;
-            top: 0;
-            padding: 10px;
-        }
-        
-        #rugby, #cricket, #soccer {
-            padding-top: 50px;
-        }
-    
-    </style>
-    
     <body>
         
-        <div id="nav">
-            <a href="#rugby">RUGBY</a>
-            <a href="#cricket">CRICKET</a>
-            <a href="#soccer">SOCCER</a>
+        <div id="header">
+            <div id="headerbox">
+                <div id="logo">Annalisa Fleming</div>
+                <div id="nav">
+                    <a href="#about">About</a> 
+                    &nbsp; &#9679; &nbsp;
+                    New Zealand 
+                    &nbsp; &#9679; &nbsp;
+                    Japan 
+                    &nbsp; &#9679; &nbsp;
+                    Australia 
+                    &nbsp; &#9679; &nbsp;
+                    Contact
+                </div>
+            </div>
         </div>
-        
-        <a data-fancybox="gallery" href="img/big_1.jpg"><img src="img/small_1.jpg" /></a>
-        <a data-fancybox="gallery" href="img/big_2.jpg"><img src="img/small_2.jpg" /></a>
-        <a data-fancybox="gallery" href="img/big_3.jpg"><img src="img/small_3.jpg" /></a>
-        <a data-fancybox="gallery" href="img/big_4.jpg"><img src="img/small_4.jpg" /></a>
-        <a data-fancybox="gallery" href="img/big_5.jpg"><img src="img/small_5.jpg" /></a>
-        
-        <h1 id="rugby">RUGBY</h1>
-        blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />
-        
-        <h1 id="cricket">CRICKET</h1>
-        blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />
-        
-        <h1 id="soccer">SOCCER</h1>
-        blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />blah <br />
-        
+        <div id="about">
+            <div id="aboutbox">
+            </div>
+        </div>
+        <div id="NZ">
+            <div id="NZbox">
+            </div>
+        </div>
+        <div id="Japan">
+            <div id="Japanbox">
+            </div>
+        </div>
+        <div id="Australia">
+            <div id="Aussiebox">
+            </div>
+        </div>
+        <div id="contact">
+            <div id="contactbox">
+            </div>
+        </div>
+        <div id="footer">
+            <div id="footerbox">
+            </div>
+        </div>
+    
     </body>
-
-
+    
 </html>
