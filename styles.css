@@ -16,6 +16,7 @@ html, body {
     top: 0;
     width: 100%;
     color: #F4F3E1;
+    position: fixed;
 }
 
 #headerbox {
@@ -42,6 +43,10 @@ html, body {
 #nav a {
     text-decoration: none;
     color: #F4F3E1;
+}
+
+#nav a:hover {
+    color: #024253;
 }
 
 #about {
