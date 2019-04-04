@@ -106,17 +106,44 @@ p {
     background-image: url(img/cubes.png);
     background-repeat: repeat;
     color: #024253;
+    padding-top: 55px;
 }
 
 #Japanbox {
     width: 800px;
     margin: auto;
+    padding-bottom: 50px;
+}
+
+#Japphotos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+#Japphotos img {
+    max-width: 180px;
 }
 
 #Australia {
     min-height: 500px;
     background-color: #024253;
     color: #F4F3E1;
+    padding-top: 55px;
+    padding-bottom: 50px;
+}
+
+#Aussiebox {
+    width: 800px;
+    margin: auto;
+}
+
+#Aussiephotos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#Aussiephotos img {
+    max-width: 250px;
 }
 
 #contact {
@@ -125,6 +152,18 @@ p {
     background-image: url(img/cubes.png);
     background-repeat: repeat;
     color: #092C3B;
+    padding-top: 40px;
+}
+
+#contactbox {
+    width: 800px;
+    margin: auto;
+    text-align: center;
+}
+
+#social {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 #footer {
