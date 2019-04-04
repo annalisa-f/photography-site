@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Caveat+Brush|Caveat:700|Raleway:500');
 
+/* Background pattern from Toptal Subtle Patterns */
+
 html {
     scroll-behavior: smooth;
     background-color: #F4F3E1;
@@ -10,13 +12,24 @@ html, body {
     padding: 0px;
 }
 
+h1 {
+    font-family: 'Caveat Brush', cursive;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.5rem;
+}
+
 #header {
     background-color: #092C3B;
     height: 80px;
     top: 0;
     width: 100%;
     color: #F4F3E1;
-    position: fixed;
+    position: fixed
 }
 
 #headerbox {
@@ -46,33 +59,62 @@ html, body {
 }
 
 #nav a:hover {
-    color: #024253;
+    color: #609691;
 }
 
 #about {
     background-color: #F4F3E1;
     background-image: url(img/cubes.png);
     background-repeat: repeat;
-    height: 500px;
-    color: #092C3B;
+    min-height: 400px;
+    color: #024253;
+    padding-top: 100px;
 }
 
-#NZ {
-    height: 500px;
+#aboutbox {
+    width: 800px;
+    margin: auto;
+}
+
+#NewZealand {
+    min-height: 500px;
     background-color: #609691;
     color: #F4F3E1;
+    padding-top: 55px;
+}
+
+#NZbox {
+    width: 800px;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+#NZphotos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#NZphotos img {
+    max-width: 250px;
 }
 
 #Japan {
-    height: 500px;
+    min-height: 500px;
     background-color: #F4F3E1;
     background-image: url(img/cubes.png);
     background-repeat: repeat;
-    color: #092C3B;
+    color: #024253;
+}
+
+#Japanbox {
+    width: 800px;
+    margin: auto;
 }
 
 #Australia {
-    height: 500px;
+    min-height: 500px;
     background-color: #024253;
     color: #F4F3E1;
 }
